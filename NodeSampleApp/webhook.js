@@ -118,7 +118,7 @@ function sendtoMessanger(options, caller_id)
 {
 request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: {access_token:'EAAbhOU9KeZA4BAHO4wZCfIKcHDlH3vZCEUfocU92CbvZCDkMmxyFoQB38KLhTZAa6MSShlEPuZAvKsXCgPJZCLlXBHRHqNuJ1SG7G3BMfY3ygwrxInQehkAOXhrtuVxdEyZCgW6djoDmjTbTtaeb5nAbT3KHoCujfjCphhVc8zkwwgZDZD'},
+    qs: {access_token:'EAAbhOU9KeZA4BAPAEquTPynXGTaCRkJnqw8COiyTdCEXgyn5qTjiBNai5sX4pFCmcPxu6MRMHu4wc1gPdpO0EZBf6mQQHcF4fNdBSglnZATy5EbP5zZCtg1p3v2ztTs15hRhlkSUGVAsqGVfGKgGFneNK0Q1tqMBWcQZAy8gcfAZDZD'},
     method: 'POST',
     json: {
       recipient: {id:caller_id},
@@ -130,7 +130,7 @@ function sendtoMessangerCust(options, caller_id)
 {
 request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: {access_token:'EAAbhOU9KeZA4BAHO4wZCfIKcHDlH3vZCEUfocU92CbvZCDkMmxyFoQB38KLhTZAa6MSShlEPuZAvKsXCgPJZCLlXBHRHqNuJ1SG7G3BMfY3ygwrxInQehkAOXhrtuVxdEyZCgW6djoDmjTbTtaeb5nAbT3KHoCujfjCphhVc8zkwwgZDZD'},
+    qs: {access_token:'EAAbhOU9KeZA4BAPAEquTPynXGTaCRkJnqw8COiyTdCEXgyn5qTjiBNai5sX4pFCmcPxu6MRMHu4wc1gPdpO0EZBf6mQQHcF4fNdBSglnZATy5EbP5zZCtg1p3v2ztTs15hRhlkSUGVAsqGVfGKgGFneNK0Q1tqMBWcQZAy8gcfAZDZD'},
     method: 'POST',
     json: {
       recipient: {id:caller_id},
@@ -386,7 +386,7 @@ console.log(JSON.stringify('Response'+response.output));
 				 }
 		 request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: {access_token:'EAAbhOU9KeZA4BAPJO3WOttZCAO82BFiDEiWvElGOOiFgd6KiEWZBndQQEBJZBmNZB7bG4G6MorWM30qQgs48OvQcTsFcTn7ZA79JEV0ZBeUdGpmm33zC6VdYZBFQDIYusWRatbvjIO40tCx9CYZAREFtwUbPZAPFLJBtcTXAoyuQGeawZDZD'},
+    qs: {access_token:'EAAbhOU9KeZA4BAPAEquTPynXGTaCRkJnqw8COiyTdCEXgyn5qTjiBNai5sX4pFCmcPxu6MRMHu4wc1gPdpO0EZBf6mQQHcF4fNdBSglnZATy5EbP5zZCtg1p3v2ztTs15hRhlkSUGVAsqGVfGKgGFneNK0Q1tqMBWcQZAy8gcfAZDZD'},
     method: 'POST',
     json: {
       recipient: {id: number},
