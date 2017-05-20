@@ -289,7 +289,7 @@ disbursements.Disbursement.create(requestData
 		console.error(error);
 	}
 	else {
-		sendtoMessanger("The card ending in 4523 on your profile has been credited with: $"+creditAmount+ " Ref # "+data.disbursement.transaction_history.data.transaction.system_trace_audit_number+ "\n"+ "Thank you for your continued loyalty with American Airlines, is there anything else I can help you with", number);
+		sendtoMessanger("The card ending in 4523 on your profile has been credited with: $"+creditAmount+ " Ref # "+data.disbursement.transaction_history.data.transaction.system_trace_audit_number+ "\n"+ "\n"+"Thank you for your continued loyalty with American Airlines, is there anything else I can help you with", number);
 		console.log(data.disbursement.id);     //Output-->dsb_b7bV5cYZIOrewrPg70JShED7ZILk
 		//sendtoMessanger("Thank you for your continued loyalty with American Airlines, is there anything else I can help you with", number);
 		
